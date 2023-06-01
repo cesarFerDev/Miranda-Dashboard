@@ -24,7 +24,7 @@ function App() {
 
   return (
   
-  <BrowserRouter>
+  <BrowserRouter basename="/Miranda-dashboard">
     <UserContext.Provider value={{state, dispatch}}>
     <Routes>
     

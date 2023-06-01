@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { EditButton } from "../styled_components/buttons/buttons";
 import logo from "../assets/logo.PNG";
 import profile from "../assets/JekkologoB.png";
-import dash from "../assets/dashboard.svg";
+import dash from "../assets/dashboard_alt.svg";
 import bookings from "../assets/bookings.svg";
 import rooms from "../assets/rooms.svg";
 import contacts from "../assets/contacts.svg";
@@ -42,7 +42,7 @@ const Footer = styled.footer`
 `;
 
 const Logo = styled.div`
-  width: 80%;
+  width: 100%;
   margin-bottom: 20px;
   img {
     width: 100%;

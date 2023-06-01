@@ -134,6 +134,13 @@ export const BookingDetailsTextContainer = styled.div`
 
 const BookingDetailsSliderContainer = styled(Swiper)`
     height: 100%;
+    .swiper-button-next, .swiper-button-prev {
+        width: 56px;
+        height: 56px;
+        background-color: #FFFFFF;
+        color: #135846;
+        border-radius: 12px;
+    }
 `;
 
 const SliderSwiperSlide = styled(SwiperSlide)`
@@ -175,7 +182,7 @@ const InfoField = styled.div`
     width: 50%;
 `;
 
-const BorderGrey = styled.div`
+export const BorderGrey = styled.div`
     background-color: #b2b2b233;
     width: 100%;
     height: 2px;

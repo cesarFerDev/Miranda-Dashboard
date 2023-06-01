@@ -88,6 +88,7 @@ const Content = styled.section`
   flex-direction: column;
   align-items: center;
   padding: 30px 50px;
+  max-width: calc(100vw - 350px);
 `;
 
 export const Layout = () => {
