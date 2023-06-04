@@ -5,7 +5,10 @@ import { Contact } from "../../interfaces/interfaces";
 
 
 export const loadContacts = createAsyncThunk("contacts/loadContacts", async () => {
-    console.log("LLEGO ACÁ")
     const contactsArray = contactsData as Contact[];
     return await addDelay(contactsArray, 200);
+});
+
+export const archiveContacts = createAsyncThunk("contacts/archiveContacts", async (id: string) => {
+    return await addDelay(id, 200);
 });

@@ -5,15 +5,12 @@ import bed from "../assets/bed.png"
 import calendar from "../assets/Calendar_add.svg"
 import check_in from "../assets/check_in.svg"
 import check_out from "../assets/check_out.svg"
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { useAppDispatch, useAppSelector } from "../app/store";
 import { loadContacts } from "../features/contacts/contactsThunks";
-import { Contact } from "../interfaces/interfaces";
-import { EditButton } from "../styled_components/buttons/buttons";
-import { BorderGrey } from "./Bookings/BookingDetails";
+import { ContactSlider } from "../components/ContactsSlider";
 
 const KPIContainer = styled.section`
     width: 100%;
@@ -21,6 +18,7 @@ const KPIContainer = styled.section`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 30px;
+    margin-bottom: 50px;
 `;
 
 const KPIElement = styled.div`
@@ -75,66 +73,6 @@ const KPIText = styled.p`
     margin: 0;
 `;
 
-export const ContactsSliderSection = styled.section`
-    width: 100%;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    margin: 20px;
-    h3 {
-        margin-left: 30px;
-        color: #393939;
-        font-size: 20px;
-        font-weight: 500;
-    }
-`;
-
-export const ContactsSliderSwiper = styled(Swiper)`
-    height: 100%;
-    max-width: 1300px;
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 70px;
-    .swiper-button-next, .swiper-button-prev {
-        width: 56px;
-        height: 56px;
-        background-color: #135846;
-        color: #FFFFFF;
-        border-radius: 12px;
-    }
-`;
-
-export const ContactSliderCard = styled(SwiperSlide)`
-    width: 25%;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #EBEBEB;
-    border-radius: 20px;
-    h4 {
-        margin-top: 0;
-        margin-bottom: 5px;
-    }
-    p {
-        margin: 0;
-        font-weight: 400;
-        color: #6E6E6E;
-        font-size: 14px;
-    }
-`;
-
-export const ContactCardTop = styled.div`
-    width: 100%;
-    padding: 15px;
-`;
-
-export const ContactCardBottom = styled.div`
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-`;
-
 export const Dashboard = (): React.JSX.Element => {
 
     const dispatch = useAppDispatch();
@@ -149,27 +87,6 @@ export const Dashboard = (): React.JSX.Element => {
             dispatch(loadContacts());
         }
     }, [dispatch, contactsData, contactsStatus]);
-    
-    const createContactCard = (contact: Contact) => {
-        return (
-            <ContactSliderCard>
-                <ContactCardTop>
-                    <h4>{contact.content_title}</h4>
-                    <p>{contact.content_text}</p>
-                </ContactCardTop>
-                <BorderGrey/>
-                <ContactCardBottom>
-                    <div>
-                        <h4>{contact.guest_name}</h4>
-                        <p>{contact.guest_email}</p>
-                        <p>{contact.guest_contact}</p>
-                    </div>
-                    
-                    <EditButton>Archive</EditButton>
-                </ContactCardBottom>
-            </ContactSliderCard>
-        );
-    }
 
     return (<>
         <KPIContainer>
@@ -204,12 +121,6 @@ export const Dashboard = (): React.JSX.Element => {
             </KPIElement>
         </KPIContainer>
 
-        <ContactsSliderSection>
-            <h3>Latest Review by Customers</h3>
-            <ContactsSliderSwiper spaceBetween={30} modules={[Navigation]} navigation={true} slidesPerView={3}>
-                {contactsData.map(contact => createContactCard(contact))}
-                {contactsData.map(contact => createContactCard(contact))}
-            </ContactsSliderSwiper>
-        </ContactsSliderSection>
+        <ContactSlider/>
         </>)
 };

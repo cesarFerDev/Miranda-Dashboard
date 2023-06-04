@@ -15,6 +15,8 @@ import { StatusText } from "./UserForm";
 import { deleteUser } from "../features/users/usersThunks";
 import { deleteRoom } from "../features/rooms/roomsThunks";
 import { Booking, Room, User, Contact } from "../interfaces/interfaces";
+import { amenitiesRender } from "./RoomForm";
+import { archiveContacts } from "../features/contacts/contactsThunks";
 
 interface RoomStatusProps {
     status?: boolean
@@ -29,11 +31,13 @@ const RequestModal = styled.div`
     position: absolute;
     background-color:#135846;
     color: #FFFFFF;
-    //top: 50%;
-    //right: 17%;
+    top: 20%;
+    right: 25%;
     width: 400px;
+    min-height: 80px;
     border-radius: 12px;
     padding: 15px;
+    z-index: 10;
 `;
 
 const TableContainer = styled.table`
@@ -71,10 +75,17 @@ const TableDataElement = styled.td`
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 500;
-    .user__photo {
+    .user__photo, .room__photo {
+        box-shadow: 0px 20px 30px #00000014;
+        border: 1px solid #b2b2b233;
         min-width: 130px;
         min-height: 100px;
         width: 100%;
+        border-radius: 50%;
+    }
+    .room__photo {
+        border-radius: 8px;
+        margin-right: 20px;
     }
     .phone__icon {
         width: 15%;
@@ -107,6 +118,30 @@ export const GreyText = styled.p`
     color: #6E6E6E;
 `;
 
+export const ArchiveButton = styled.button`
+    background: none;
+    border: none;
+    color: #E23428;
+    border-bottom: 1px solid #E23428;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    &.archive-slider-btn {
+        margin-right: 30px;
+        font-size: 16px;
+    }
+    :hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+`;
+
+const ArchivedButton = styled(ArchiveButton)`
+    color: #135846;
+    border-bottom: 1px solid #135846;
+`;
+
 const StrongText = styled.h4`
     font-weight: 600;
     font-size: 20px;
@@ -133,6 +168,17 @@ const ElementTableTextContainer =  styled.div`
     justify-content: center;
 `;
 
+const CloseModalButton = styled.button`
+    position: absolute;
+    color: #FFFFFF;
+    border: none;
+    background none;
+    right: 10px;
+    :hover {
+        cursor: pointer;
+    }
+`;
+
 interface ITableProps {
     section: string,
     cols: string[],
@@ -146,12 +192,8 @@ export const Table = (props: ITableProps) => {
     const [modal, setModal] = useState(false);
     const [request, setRequest] = useState("");
 
+    const [showRequest, setShowRequest] = useState<null | string>(null);
     const [showDelete, setShowDelete] = useState<null | string>(null);
-
-    const showRequestClickHanlder = (request: string) => {
-        setRequest(request);
-        setModal(true);
-    }
 
     const deleteBookingClickHandler = (id: string) => {
         setShowDelete(null);
@@ -184,7 +226,7 @@ export const Table = (props: ITableProps) => {
                     <TableDataElement><GreyText>{booking.order_date}</GreyText></TableDataElement>
                     <TableDataElement><GreyText>{booking.check_in}</GreyText></TableDataElement>
                     <TableDataElement><GreyText>{booking.check_out}</GreyText></TableDataElement>
-                    <TableDataElement><EditButton onClick={() => showRequestClickHanlder(booking.special_request)}>View Notes</EditButton></TableDataElement>
+                    <TableDataElement>{booking.special_request && <EditButton onClick={() => setShowRequest(prev => prev === booking.special_request ? null : booking.special_request)}>View Notes{showRequest === booking.special_request && <RequestModal><CloseModalButton onClick={() => setModal(false)}>X</CloseModalButton><p>{booking.special_request}</p></RequestModal>}</EditButton>}</TableDataElement>
                     <TableDataElement>{booking.room && booking.room.type} {booking.room && booking.room.number}</TableDataElement>
                     <TableDataElement><StatusButton status={booking.status}>{booking.status}</StatusButton></TableDataElement>
                     <TableDataElement><DeleteDots onClick={() => setShowDelete(prev => prev === booking.booking_id ? null : booking.booking_id)}><img src={dots} alt="" />{showDelete === booking.booking_id && <DeleteButton onClick={() => deleteBookingClickHandler(booking.booking_id)}><img src={trash}/> Delete</DeleteButton>}</DeleteDots></TableDataElement>
@@ -203,7 +245,7 @@ export const Table = (props: ITableProps) => {
                 <TableDataElement>
                     <TableLink to={`/rooms/${room.room_id}`}>
                         <ElementTableInfoContainer>
-                            <img className="user__photo" src={room.photos && room.photos[0]} alt="" />
+                            <img className="room__photo" src={room.photos && room.photos[0]} alt="" />
                             <ElementTableTextContainer>
                                 <StrongText>{room.number}</StrongText>
                                 <GreyText>ID {room.room_id}</GreyText>
@@ -212,7 +254,7 @@ export const Table = (props: ITableProps) => {
                     </TableLink>
                 </TableDataElement>
                 <TableDataElement>{room.type}</TableDataElement>
-                <TableDataElement>{room.amenities}</TableDataElement>
+                <TableDataElement><GreyText>{room.amenities && amenitiesRender(room.amenities)}</GreyText></TableDataElement>
                 <TableDataElement><StrongText className={room.discount !== 0 ? "lined" : ""}>$ {room.price}</StrongText><GreyText>/night</GreyText></TableDataElement>
                 <TableDataElement><StrongText className={room.discount !== 0 ? "offer" : ""}>{room.discount !== 0 ? `$ ${discount(room.price, room.discount)}` : "-"} </StrongText><GreyText>/night</GreyText></TableDataElement>
                 <TableDataElement><RoomStatusButton status={room.available}>{room.available ? "Available" : "Booked"}</RoomStatusButton></TableDataElement>
@@ -248,7 +290,7 @@ export const Table = (props: ITableProps) => {
                         <GreyText>{contact.content_text}</GreyText>
                     </ElementTableTextContainer>
                 </TableDataElement>
-                <TableDataElement><EditButton>Archive</EditButton></TableDataElement>
+                <TableDataElement>{!contact.is_archived ? <ArchiveButton onClick={() => dispatch(archiveContacts(contact.contact_id))}>Archive</ArchiveButton> : <ArchivedButton>Archived</ArchivedButton>}</TableDataElement>
             </TableRow>
             </>
         );
@@ -273,9 +315,9 @@ export const Table = (props: ITableProps) => {
                     </TableDataElement>
 
                     <TableDataElement>{user.start_date}</TableDataElement>
-                    <TableDataElement>{user.job_description}</TableDataElement>
+                    <TableDataElement><GreyText>{user.job_description}</GreyText></TableDataElement>
                     <TableDataElement><div style={{display:  "flex"}}><img className="phone__icon" src={phone} alt="" /><StrongText>{user.contact}</StrongText></div></TableDataElement>
-                    <TableDataElement><StatusText status={user.status}>{user.status ? "ACTIVE" : "INACTIVE"}</StatusText></TableDataElement>
+                    <TableDataElement><StatusText status={user.is_active}>{user.is_active ? "ACTIVE" : "INACTIVE"}</StatusText></TableDataElement>
                     <TableDataElement><DeleteDots onClick={() => setShowDelete(prev => prev === user.user_id ? null : user.user_id)}><img src={dots} alt="" />{showDelete === user.user_id && <DeleteButton onClick={() => deleteUserClickHandler(user.user_id)}><img src={trash}/> Delete</DeleteButton>}</DeleteDots></TableDataElement>
                 </TableRow>
                 </>

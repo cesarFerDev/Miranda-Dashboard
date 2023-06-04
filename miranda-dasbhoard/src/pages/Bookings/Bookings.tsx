@@ -1,13 +1,13 @@
 import { Table } from "../../components/Table";
 import { loadBookings } from "../../features/bookings/bookingsThunks";
 import React, { useEffect, useState } from "react";
-import { TableFiltersContainer, UserStatusFiltersContainer, UserFiltersContainer, FilterButton, SearchBar, CreateLink } from "../Users/Users";
+import { TableFiltersContainer, EntityStatusFiltersContainer, EntityFiltersContainer, FilterButton, SearchBar, CreateLink } from "../Users/Users";
 import { Booking } from "../../interfaces/interfaces";
 import { useAppDispatch, useAppSelector } from "../../app/store";
 import { useSection } from "../../components/Layout";
 import styled from "styled-components";
 
-const SelectFilter = styled.select`
+export const SelectFilter = styled.select`
     font-family: 'Poppins';
     font-weight: 600;
     text-align: center;
@@ -100,24 +100,23 @@ export const Bookings = () => {
 
     return (<>
         <TableFiltersContainer>
-        <UserStatusFiltersContainer>
+        <EntityStatusFiltersContainer>
             <FilterButton onClick={() => setFilterTable("All")} className={filterTable === "All" ? "active" : ""}>All Bookings</FilterButton>
             <FilterButton onClick={() => setFilterTable("Check In")} className={filterTable === "Check In" ? "active" : ""}>Checking In</FilterButton>
             <FilterButton onClick={() => setFilterTable("Check Out")} className={filterTable === "Check Out" ? "active" : ""}>Checking Out</FilterButton>
             <FilterButton onClick={() => setFilterTable("In progress")} className={filterTable === "In progress" ? "active" : ""}>In Progress</FilterButton>
-        </UserStatusFiltersContainer>
+        </EntityStatusFiltersContainer>
 
-        <UserFiltersContainer>
+        <EntityFiltersContainer>
             <SearchBar placeholder="Search Customer" type="text" onChange={(event) => setSearchGuest(event.target.value)}></SearchBar>
             <CreateLink to="/bookings/create">+ New Booking</CreateLink>
-            {/*<EditButton>Order By</EditButton>*/}
             <SelectFilter onChange={(event: React.ChangeEvent<HTMLSelectElement>) => setPropertyOrder(event.target.value)} name="order">Order By
                 <option value="order_date">Order Date</option>
                 <option value="check_in">Check In</option>
                 <option value="check_out">Check Out</option>
                 <option value="guest_name">Guest Name</option>
             </SelectFilter>
-        </UserFiltersContainer>
+        </EntityFiltersContainer>
 
         </TableFiltersContainer>
 

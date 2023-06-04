@@ -107,6 +107,13 @@ const SubmitButton = styled(LoginButton)`
 interface RoomFormProps {
     section: string;
 }
+
+export const amenitiesRender = (amenitiesArray: string[]) => {
+    let amenitiesString = "";
+    amenitiesArray.map(amenity => amenitiesString += `"${amenity}"  `);
+    return amenitiesString;
+}
+
 export const RoomForm = (props: RoomFormProps) => {
 
     const roomsData = useAppSelector(state => state.rooms.data)
@@ -116,8 +123,13 @@ export const RoomForm = (props: RoomFormProps) => {
     const dispatch = useAppDispatch();
     const nav = useNavigate();
 
+    const singleAmenities = ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Single Bed"];
+    const doubleAmenities = ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Double Bed"];
+    const doubleSupAmenities = ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Mini-fridge", "Coffee maker", "Double Bed"];
+    const suiteAmenities = ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Mini-fridge", "Coffee maker", "Bathrobe", "Slippers", "King Bed"];
+
     const [roomPhotos, setRoomPhotos] = useState<string[]>(singleRoomData ? singleRoomData.photos : ["https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"]);
-    const [roomType, setRoomType] = useState(singleRoomData ? singleRoomData.type : "");
+    const [roomType, setRoomType] = useState(singleRoomData ? singleRoomData.type : "Single Bed");
     const [roomNumber, setRoomNumber] = useState(singleRoomData ? singleRoomData.number : "");
     const [roomDescription, setRoomDescription] = useState(singleRoomData ? singleRoomData.description : "");
     const [roomPrice, setRoomPrice] = useState(singleRoomData ? singleRoomData.price : 0);
@@ -126,6 +138,7 @@ export const RoomForm = (props: RoomFormProps) => {
     const [roomAmenities, setRoomAmenities] = useState(singleRoomData ? singleRoomData.amenities : [""]);
 
     const createRoomObject = (): Room => {
+
         return {
             room_id: props.section === "New Room" ? createID().toString() : (singleRoomData ? singleRoomData.room_id : ""),
             type: roomType,
@@ -148,6 +161,20 @@ export const RoomForm = (props: RoomFormProps) => {
             dispatch(editRoom(createRoomObject()));
         }
         nav("/rooms");
+    }
+
+    const amenitiesSelect = (roomType: string) => {
+
+        switch (roomType) {
+            case "Single Bed":
+                return amenitiesRender(singleAmenities);
+            case "Double Bed":
+                return amenitiesRender(doubleAmenities);
+            case "Double Superior":
+                return amenitiesRender(doubleSupAmenities);
+            case "Suite":
+                return amenitiesRender(suiteAmenities);
+        }
     }
 
     return (
@@ -193,7 +220,7 @@ export const RoomForm = (props: RoomFormProps) => {
             
             <FormField>
                 <FormLabel htmlFor="amenities">Amenities</FormLabel>
-                <FormTextArea onChange={(event) => setRoomAmenities([event.target.value])} name="amenities" value={roomAmenities} required/>
+                <FormTextArea name="amenities" value={amenitiesSelect(roomType)}/>
             </FormField>
             
             <UserFormButtonsContainer>

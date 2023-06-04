@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { createUser, loadUsers } from "../../features/users/usersThunks";
 import { Table } from "../../components/Table";
 import {createID } from "../../aux_functions/auxFunctions"
@@ -8,30 +8,35 @@ import { EditButton, LoginButton } from "../../styled_components/buttons/buttons
 import { CreateUserForm } from "./CreateUserForm";
 import { useAppDispatch, useAppSelector } from "../../app/store";
 import { useSection } from "../../components/Layout";
+import { User } from "../../interfaces/interfaces";
+import { SelectFilter } from "../Bookings/Bookings";
 
-export const UserFiltersContainer = styled.div`
+export const EntityFiltersContainer = styled.div`
     width: 40%;
     display: flex;
     justify-content: space-between;
 `;
 
-export const UserStatusFiltersContainer = styled.div`
+export const EntityStatusFiltersContainer = styled.div`
     width: 45%;
     display: flex;
 `;
 
 export const CreateLink = styled(Link)`
-    margin: 0 20px;
+    margin: 0px 20px;
     display: flex;
+    -webkit-box-align: center;
     align-items: center;
+    -webkit-box-pack: center;
     justify-content: center;
-    min-width: 30%;
-    background-color: #135846;
-    color: #EBF1EF;
+    width: 30%;
+    min-width: 120px;
+    background-color: rgb(19, 88, 70);
+    color: rgb(235, 241, 239);
     font-weight: 600;
     font-size: 14px;
     text-decoration: none;
-    max-width: 120px;
+    max-width: 180px;
     height: 50px;
     border: none;
     border-radius: 8px;
@@ -81,11 +86,62 @@ export const SearchBar = styled.input`
     height: 45px;
 `;
 
+const filterUsersArray = (array: User[], filter: string, order: string, search: string) => {
+    let aux = [...array];
+
+    switch (filter) {
+        case "All":
+            break;
+        case "Active":
+            aux = aux.filter(user => user.is_active === true);
+            break;    
+        case "Inactive":
+            aux = aux.filter(user => user.is_active === false);
+            break;  
+    }
+
+    switch (order) {
+        case "start_date": 
+            aux = aux.sort((a,b) => {
+                
+                if (Date.parse(b[order]) < Date.parse(a[order])) {
+                    return -1;
+                } else if (Date.parse(b[order]) > Date.parse(a[order])) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            });
+            break;    
+        case "name":
+            aux = aux.sort((a,b) => {
+                if (a[order] < b[order]) {
+                    return -1;
+                } else if (a[order] > b[order]) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            });
+            break;    
+    }
+
+    if (search != "") {
+        aux = aux.filter(user => user.name.toLowerCase().includes(search.toLowerCase()));
+    }
+
+    return aux;
+}
+
 export const Users = () => {
 
     const dispatch = useAppDispatch();
     const usersData = useAppSelector(state => state.users.data);
     const usersStatus = useAppSelector(state => state.users.status);
+
+    const [filterTable, setFilterTable] = useState("All");
+    const [propertyOrder, setPropertyOrder] = useState("start_date");
+    const [searchGuest, setSearchGuest] = useState("");
 
     const {sectionName, setSectionName} = useSection();
 
@@ -107,21 +163,24 @@ export const Users = () => {
     return (
     <>
     <TableFiltersContainer>
-        <UserStatusFiltersContainer>
-            <FilterButton>All Employees</FilterButton>
-            <FilterButton>Active Employees</FilterButton>
-            <FilterButton>Inactive Employees</FilterButton>
-        </UserStatusFiltersContainer>
+        <EntityStatusFiltersContainer>
+            <FilterButton onClick={() => setFilterTable("All")} className={filterTable === "All" ? "active" : ""}>All Employees</FilterButton>
+            <FilterButton onClick={() => setFilterTable("Active")} className={filterTable === "Active" ? "active" : ""}>Active Employees</FilterButton>
+            <FilterButton onClick={() => setFilterTable("Inactive")} className={filterTable === "Inactive" ? "active" : ""}>Inactive Employees</FilterButton>
+        </EntityStatusFiltersContainer>
 
-        <UserFiltersContainer>
-            <SearchBar placeholder="Search" type="text"></SearchBar>
+        <EntityFiltersContainer>
+            <SearchBar placeholder="Search User" type="text" onChange={(event) => setSearchGuest(event.target.value)}></SearchBar>
             <CreateLink to="/users/create">+ New Employee</CreateLink>
-            <EditButton>Order By</EditButton>
-        </UserFiltersContainer>
+            <SelectFilter onChange={(event: React.ChangeEvent<HTMLSelectElement>) => setPropertyOrder(event.target.value)} name="order">Order By
+                <option value="start_date">Start Date</option>
+                <option value="name">Name</option>
+            </SelectFilter>
+        </EntityFiltersContainer>
 
     </TableFiltersContainer>
 
-    <Table section={sectionName} cols={usersCols} data={usersData}/>
+    <Table section={sectionName} cols={usersCols} data={filterUsersArray(usersData, filterTable, propertyOrder, searchGuest)}/>
     </>
     );
 }

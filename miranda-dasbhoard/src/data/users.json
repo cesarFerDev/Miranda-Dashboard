@@ -8,7 +8,7 @@
         "contact": "666666666",
         "start_date": "2022-01-10",
         "job_description": "Developing the dashboard for the hotel",
-        "status": "active",
+        "is_active": true,
         "password": "1234"
     },
     {
@@ -20,7 +20,7 @@
         "contact": "123-4567",
         "start_date": "2022-01-10",
         "job_description": "Responsible for developing and maintaining websites using HTML, CSS, and JavaScript.",
-        "status": "active",
+        "is_active": true,
         "password": "s4G8fT#P7$"
     },
     {
@@ -32,7 +32,7 @@
         "contact": "123-4567",
         "start_date": "2022-02-15",
         "job_description": "Develop and maintain software applications and systems.",
-        "status": "active",
+        "is_active": true,
         "password": "oB@}Wfy9XbQ<eB>z"
     },
     {
@@ -44,7 +44,7 @@
         "contact": "123-4567",
         "start_date": "2022-01-01",
         "job_description": "Develop and maintain software applications",
-        "status": "active",
+        "is_active": true,
         "password": "somerandompassword"
     }
 ]

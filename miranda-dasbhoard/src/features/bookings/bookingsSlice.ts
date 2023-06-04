@@ -23,7 +23,6 @@ export const bookingsSlice=  createSlice({
         })
         .addCase(loadBookings.pending, (state, action) => {
             state.status = "pending";
-            console.log("loading");
         })
         .addCase(loadBookings.rejected, (state, action) => {
             state.status = "rejected";

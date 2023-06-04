@@ -19,7 +19,8 @@ export interface Contact {
     guest_email: string,
     guest_contact: string,
     content_title: string,
-    content_text: string
+    content_text: string,
+    is_archived: boolean
 }
 
 export interface Room {
@@ -44,6 +45,6 @@ export interface User {
     contact: string,
     start_date: string,
     job_description: string,
-    status: string,
+    is_active: boolean,
     password: string
 }

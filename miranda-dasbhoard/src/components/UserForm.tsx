@@ -12,12 +12,12 @@ import { useAppDispatch, useAppSelector } from "../app/store";
 import { User } from "../interfaces/interfaces";
 
 interface StatusTextProps {
-    status: string
+    status: boolean
 }
 
 export const StatusText = styled.h4<StatusTextProps>`
     font-size: 16px;
-    color: ${props => props.status==="active" ? "#5AD07A" : "#E23428"};
+    color: ${props => props.status  ? "#5AD07A" : "#E23428"};
 `;
 
 export const FormField = styled.div`
@@ -27,8 +27,12 @@ export const FormField = styled.div`
     padding: 10px 0;
     margin-bottom: 30px;
     img{
-        width: 35%;
-        margin: 0 auto; 
+        width: 40%;
+        border-radius: 50%;
+        margin: 0 auto;
+        box-shadow: 0px 20px 30px #00000014;
+        border: 1px solid #b2b2b233;
+        object-fit: cover; 
     }
 `;
 
@@ -133,7 +137,7 @@ export const UserForm = (props: IUserFormProps) => {
     const [userContact, setUserContact] = useState(singleUserData ? singleUserData.contact : "");
     const [userStartDate, setUserStartDate] = useState(singleUserData ? singleUserData.start_date : "");
     const [userRoleDescription, setUserRoleDescription] = useState(singleUserData ? singleUserData.job_description : "");
-    const [userStatus, setUserStatus] = useState(singleUserData ? singleUserData.status : "");
+    const [userStatus, setUserStatus] = useState(singleUserData ? singleUserData.is_active : false);
     const [userPassword, setUserPassword] = useState(singleUserData ? singleUserData.password : "");
 
     const createUserObject = (): User => {
@@ -146,7 +150,7 @@ export const UserForm = (props: IUserFormProps) => {
             contact: userContact,
             start_date: userStartDate.toString(),
             job_description: userRoleDescription,
-            status: userStatus,
+            is_active: userStatus,
             password: userPassword
         };
     }
@@ -196,11 +200,11 @@ export const UserForm = (props: IUserFormProps) => {
                 <FormLabel htmlFor="job-description">Role Description</FormLabel>
                 <FormTextArea onChange={(event) => setUserRoleDescription(event.target.value)}  name="job-description" value={userRoleDescription} required/>
             </FormField>
-            <RadioField value={userStatus}>
-                <FormRadio onChange={(event) => setUserStatus(event.target.value)} type="radio" name="status" value="active" cssClass="e-small"/>
-                <FormLabel htmlFor="status"><StatusText status="active">ACTIVE</StatusText></FormLabel>  
-                <FormRadio onChange={(event) => setUserStatus(event.target.value)} type="radio" name="status" value="inactive" cssClass="e-small"/>
-                <FormLabel htmlFor="status"><StatusText status="inactive">INACTIVE</StatusText></FormLabel>      
+            <RadioField value={userStatus ? "active" : "inactive"}>
+                <FormRadio onChange={(event) => setUserStatus(true)} type="radio" name="status" value="active" cssClass="e-small"/>
+                <FormLabel htmlFor="status"><StatusText status={true}>ACTIVE</StatusText></FormLabel>  
+                <FormRadio onChange={(event) => setUserStatus(false)} type="radio" name="status" value="inactive" cssClass="e-small"/>
+                <FormLabel htmlFor="status"><StatusText status={false}>INACTIVE</StatusText></FormLabel>      
             </RadioField>
             <FormField>
                 <FormLabel htmlFor="password">Password</FormLabel>
