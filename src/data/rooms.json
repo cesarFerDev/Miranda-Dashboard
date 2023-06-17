@@ -1,0 +1,1177 @@
+[
+    {
+      "type": "Suite",
+      "number": 244,
+      "price": 604.52,
+      "discount": 99,
+      "cancellation": "hic eaque quod natus non aperiam illo et inventore nesciunt similique nostrum impedit earum quidem velit ipsum reiciendis occaecati nulla",
+      "description": "iure minus quidem at dolore totam vero sequi ipsam itaque nobis quaerat deleniti eveniet velit error ratione voluptatibus fuga eum",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552240-59c37f38802b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb24943f"
+    },
+    {
+      "type": "Suite",
+      "number": 117,
+      "price": 822.33,
+      "discount": 25,
+      "cancellation": "dolorum atque incidunt qui odio similique esse architecto nobis nemo distinctio quia facere vel illum dolorem harum qui nobis consequuntur",
+      "description": "quibusdam ex occaecati quibusdam molestias quam cumque officiis similique iusto corporis temporibus voluptatum eveniet facilis doloribus dolorem vero ratione deleniti",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5164e3a1775efb249441"
+    },
+    {
+      "type": "Suite",
+      "number": 298,
+      "price": 906.96,
+      "discount": 58,
+      "cancellation": "temporibus autem quidem debitis modi quisquam cupiditate unde dolore placeat sed earum ullam rem dolore doloribus explicabo unde veritatis quidem",
+      "description": "dicta occaecati dolorem ex qui culpa officia enim exercitationem corporis tempora voluptatum facere alias alias quia occaecati quo incidunt facere",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249443"
+    },
+    {
+      "type": "Suite",
+      "number": 303,
+      "price": 69.25,
+      "discount": 65,
+      "cancellation": "possimus expedita unde ipsum neque quis tempora dicta fugit eligendi rerum laboriosam impedit dolorum quisquam impedit rerum dicta ab nihil",
+      "description": "corporis sunt hic atque quia omnis in magni facilis tempore rerum inventore illo explicabo repudiandae cumque doloremque nobis quis tempore",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249445"
+    },
+    {
+      "type": "Single Bed",
+      "number": 405,
+      "price": 118.2,
+      "discount": 29,
+      "cancellation": "ipsum eveniet reiciendis similique quasi ullam inventore ab doloremque atque nobis accusamus omnis laborum tenetur voluptatum omnis natus velit exercitationem",
+      "description": "ratione quod illum eveniet similique quos necessitatibus architecto corporis deleniti id deserunt corporis doloremque voluptates eos assumenda iure aspernatur quo",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5164e3a1775efb249447"
+    },
+    {
+      "type": "Double Bed",
+      "number": 427,
+      "price": 269.12,
+      "discount": 19,
+      "cancellation": "ducimus aut facilis consequatur facilis quos nam amet officia animi atque molestiae voluptatem debitis in reiciendis omnis tempora nihil aspernatur",
+      "description": "ducimus voluptatibus architecto pariatur quidem maiores sequi soluta doloremque libero ratione optio porro dolorem culpa ipsam harum officiis debitis impedit",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249449"
+    },
+    {
+      "type": "Suite",
+      "number": 54,
+      "price": 511.21,
+      "discount": 46,
+      "cancellation": "asperiores quam iure porro tenetur voluptatibus provident adipisci iusto velit similique at totam sed commodi dicta illum quos vel facere",
+      "description": "quas blanditiis esse temporibus reprehenderit in eum ad quo eligendi quas qui cupiditate iusto illum itaque repellat eligendi incidunt quam",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb24944b"
+    },
+    {
+      "type": "Suite",
+      "number": 474,
+      "price": 238.41,
+      "discount": 37,
+      "cancellation": "totam fugiat eius ad nostrum voluptate modi facilis maiores ipsa provident facilis ipsum voluptatum ipsa voluptas dolore quibusdam nisi expedita",
+      "description": "eligendi dignissimos deleniti sunt ducimus nulla facere ut eaque ipsa deserunt fugiat quis at eligendi aperiam itaque id ullam suscipit",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb24944d"
+    },
+    {
+      "type": "Double Bed",
+      "number": 304,
+      "price": 902.63,
+      "discount": 9,
+      "cancellation": "neque est porro saepe debitis dolore laborum enim quis atque sequi aut tenetur deleniti quidem porro quisquam ab maiores repellendus",
+      "description": "sequi nobis at blanditiis voluptate ea sapiente nihil magnam iste minus vero consequatur velit aliquid vel esse sed odio fugit",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb24944f"
+    },
+    {
+      "type": "Double Bed",
+      "number": 425,
+      "price": 323.24,
+      "discount": 93,
+      "cancellation": "quaerat voluptate porro expedita libero explicabo asperiores debitis consectetur omnis earum architecto mollitia assumenda autem veniam odit illum exercitationem quae",
+      "description": "enim soluta consectetur nulla hic soluta repudiandae eius similique earum voluptatem voluptatem soluta corporis hic adipisci quae impedit laborum temporibus",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249451"
+    },
+    {
+      "type": "Double Bed",
+      "number": 148,
+      "price": 419.76,
+      "discount": 39,
+      "cancellation": "a quas nobis eveniet libero molestias error expedita animi cupiditate totam occaecati impedit magnam culpa cupiditate numquam quos expedita ex",
+      "description": "distinctio nesciunt eveniet distinctio iusto reiciendis asperiores perferendis provident magnam fugiat quos quasi quam iure recusandae odio ducimus voluptatum laudantium",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249453"
+    },
+    {
+      "type": "Suite",
+      "number": 328,
+      "price": 738.06,
+      "discount": 95,
+      "cancellation": "voluptatem rem nostrum qui esse odit nesciunt placeat quas modi molestiae iure qui nisi suscipit rerum delectus repellendus aliquid occaecati",
+      "description": "recusandae libero voluptatem nam quibusdam nam distinctio saepe pariatur doloribus minima quidem aut consequuntur deleniti dolor repellendus assumenda deleniti molestias",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552240-59c37f38802b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249455"
+    },
+    {
+      "type": "Double Superior",
+      "number": 356,
+      "price": 639.35,
+      "discount": 34,
+      "cancellation": "ipsam error libero incidunt quis fuga iste animi placeat et culpa incidunt doloremque exercitationem ducimus veritatis voluptate aspernatur beatae voluptas",
+      "description": "sed repellendus similique quaerat eos cupiditate reprehenderit ea laboriosam esse ullam provident voluptate debitis aperiam aliquid quam inventore temporibus suscipit",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249457"
+    },
+    {
+      "type": "Suite",
+      "number": 493,
+      "price": 935.03,
+      "discount": 93,
+      "cancellation": "voluptatem aperiam laudantium aliquid ipsum officiis atque occaecati illum repellendus unde dolorum at quos quam laboriosam nam voluptatum quidem voluptatem",
+      "description": "eum repellendus tempora reiciendis reiciendis velit commodi eos placeat iusto assumenda ipsa eius cupiditate distinctio velit dolores aliquam repellendus inventore",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb249459"
+    },
+    {
+      "type": "Double Superior",
+      "number": 280,
+      "price": 215.24,
+      "discount": 84,
+      "cancellation": "quos iusto quasi nihil quae cum accusantium nemo atque quam ratione fuga reiciendis quam autem architecto ipsum praesentium necessitatibus tempore",
+      "description": "ab maxime totam ab corporis ipsa quibusdam dolores libero doloribus sit quia repellendus consequuntur et nihil possimus maxime ipsa eum",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5164e3a1775efb24945b"
+    },
+    {
+      "type": "Suite",
+      "number": 186,
+      "price": 445.61,
+      "discount": 59,
+      "cancellation": "totam nemo beatae ad quidem in nihil fugiat architecto alias minus alias quaerat debitis exercitationem omnis fuga dolorem corrupti quas",
+      "description": "qui vel ducimus natus atque quibusdam eaque aut ipsam eveniet aut neque dicta blanditiis error adipisci natus nulla quae ipsum",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb24945d"
+    },
+    {
+      "type": "Single Bed",
+      "number": 283,
+      "price": 178.54,
+      "discount": 62,
+      "cancellation": "aperiam quos id sint adipisci dignissimos suscipit quaerat sed illo optio quae ipsum delectus voluptates dignissimos delectus eligendi saepe natus",
+      "description": "doloremque maiores at est voluptates sit necessitatibus natus dicta accusantium perspiciatis adipisci dolor dignissimos fugit nam et amet quis laboriosam",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb24945f"
+    },
+    {
+      "type": "Double Superior",
+      "number": 289,
+      "price": 416.88,
+      "discount": 91,
+      "cancellation": "at earum deleniti unde exercitationem at natus corporis quod dolorem quidem commodi quidem eum aperiam repellendus ducimus soluta repellat molestiae",
+      "description": "dignissimos mollitia quis dolor deleniti doloremque quas animi placeat hic sapiente laboriosam nobis at ducimus libero vel quos facilis quo",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb249461"
+    },
+    {
+      "type": "Suite",
+      "number": 497,
+      "price": 250.84,
+      "discount": 76,
+      "cancellation": "reiciendis autem vitae quae ex praesentium sit ad atque recusandae qui quam esse quisquam minus dolor culpa reiciendis numquam ex",
+      "description": "quasi eum nulla magnam provident fuga porro magnam alias earum sapiente rerum vero ullam quas facilis eos nostrum autem mollitia",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb249463"
+    },
+    {
+      "type": "Double Bed",
+      "number": 31,
+      "price": 985.87,
+      "discount": 35,
+      "cancellation": "necessitatibus perferendis reiciendis non eos placeat placeat consectetur deleniti amet totam iste eligendi et dolore ipsa praesentium animi harum harum",
+      "description": "sequi maxime eos quidem deserunt earum ab reiciendis ullam error qui sed iusto esse ipsa autem non beatae minima suscipit",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb249465"
+    },
+    {
+      "type": "Double Bed",
+      "number": 480,
+      "price": 571.87,
+      "discount": 31,
+      "cancellation": "facere sapiente corporis ea ab quibusdam ea blanditiis illum voluptatibus ipsam explicabo aut natus recusandae iste laboriosam perferendis similique quas",
+      "description": "explicabo molestiae sequi id quo tempora quas iste eius tempore laboriosam laborum veritatis ipsa recusandae esse nemo modi occaecati laborum",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb249467"
+    },
+    {
+      "type": "Double Superior",
+      "number": 53,
+      "price": 67.15,
+      "discount": 71,
+      "cancellation": "optio nesciunt voluptas eum omnis ut quaerat tempore mollitia placeat exercitationem quod saepe inventore aperiam assumenda libero animi ullam similique",
+      "description": "culpa deserunt quidem quod quos harum neque sit sunt velit ullam fugiat blanditiis deleniti assumenda ab molestiae ad sint debitis",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb249469"
+    },
+    {
+      "type": "Suite",
+      "number": 234,
+      "price": 532.66,
+      "discount": 37,
+      "cancellation": "ratione blanditiis cum modi neque error illo ea neque et architecto totam ea fuga itaque totam sed mollitia unde at",
+      "description": "nostrum illum veritatis soluta minus harum optio ipsum ipsa nostrum neque ducimus cumque labore voluptas quia sequi ipsam ipsam nemo",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb24946b"
+    },
+    {
+      "type": "Single Bed",
+      "number": 152,
+      "price": 821.23,
+      "discount": 76,
+      "cancellation": "nam harum sed pariatur mollitia expedita rem ex doloribus inventore amet ut magnam perspiciatis magnam tempore officia eaque fuga earum",
+      "description": "ipsam adipisci fugit modi similique commodi corporis mollitia minima voluptatum esse voluptas eligendi modi a exercitationem reiciendis quo dolore consequatur",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5165e3a1775efb24946d"
+    },
+    {
+      "type": "Double Superior",
+      "number": 97,
+      "price": 43.69,
+      "discount": 48,
+      "cancellation": "maiores soluta sunt corrupti voluptates tempore pariatur voluptate veniam quisquam hic deleniti repellendus architecto facere modi dolore impedit ipsum nihil",
+      "description": "eligendi incidunt ut saepe rem blanditiis beatae labore sint mollitia numquam nemo perferendis qui ad nihil dicta neque expedita adipisci",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": false,
+      "id": "648c5165e3a1775efb24946f"
+    },
+    {
+      "type": "Double Superior",
+      "number": 423,
+      "price": 724.67,
+      "discount": 90,
+      "cancellation": "commodi molestiae aperiam animi ad nobis necessitatibus laudantium unde dolore provident facere voluptatibus assumenda eos pariatur voluptate ipsam corrupti recusandae",
+      "description": "molestias laboriosam deleniti illo libero libero nostrum itaque iure placeat autem voluptate dicta aliquam hic perspiciatis recusandae maxime minima beatae",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb28"
+    },
+    {
+      "type": "Single Bed",
+      "number": 319,
+      "price": 821.54,
+      "discount": 16,
+      "cancellation": "expedita sit natus deserunt omnis quis nulla aliquam maiores quas ipsam cum numquam nihil nisi quasi ut iusto totam repellat",
+      "description": "excepturi ex quos eum quae iste magnam vitae odio possimus doloremque illum dolores explicabo ratione in debitis vitae fugiat expedita",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb2a"
+    },
+    {
+      "type": "Double Superior",
+      "number": 78,
+      "price": 915.69,
+      "discount": 81,
+      "cancellation": "commodi facilis adipisci voluptas quod ipsam exercitationem quisquam natus cumque repellendus esse incidunt saepe minima odio autem autem culpa fugit",
+      "description": "voluptate facere recusandae error nihil aliquid a blanditiis amet dolore repudiandae ullam ex beatae sequi minus nobis ab rerum tempore",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb2c"
+    },
+    {
+      "type": "Single Bed",
+      "number": 375,
+      "price": 98.93,
+      "discount": 70,
+      "cancellation": "deserunt nemo voluptates earum cupiditate nihil excepturi omnis doloribus exercitationem quaerat earum corporis minus autem expedita reprehenderit debitis nihil maxime",
+      "description": "inventore omnis voluptatum dolorem nihil nulla earum quis cupiditate tempora placeat saepe veritatis fugit laudantium reprehenderit quas deleniti eligendi dolores",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552240-59c37f38802b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb2e"
+    },
+    {
+      "type": "Single Bed",
+      "number": 162,
+      "price": 980.35,
+      "discount": 43,
+      "cancellation": "dolorum libero tempore praesentium consectetur nobis doloribus at dolor eveniet quaerat voluptatem quae consequuntur magni ipsa quod corrupti ullam doloribus",
+      "description": "placeat dolores deserunt nemo itaque nemo magni facilis odio pariatur quas culpa ab eum vitae ea dignissimos minima veritatis necessitatibus",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb30"
+    },
+    {
+      "type": "Double Superior",
+      "number": 449,
+      "price": 481.06,
+      "discount": 38,
+      "cancellation": "commodi doloribus ipsa laboriosam aliquam corporis laboriosam quaerat nam rem harum praesentium sed necessitatibus voluptatibus corporis harum dolor molestiae unde",
+      "description": "accusamus iste atque sint ratione odit eos facere iure recusandae porro repudiandae suscipit totam ad accusantium nobis maxime sit facilis",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb32"
+    },
+    {
+      "type": "Single Bed",
+      "number": 234,
+      "price": 707.99,
+      "discount": 73,
+      "cancellation": "laboriosam officia quidem et eum placeat distinctio nihil architecto quidem eligendi molestiae fugiat soluta explicabo quam non praesentium voluptatum optio",
+      "description": "consectetur architecto possimus incidunt vitae voluptatem provident dolore quis et consequuntur voluptates necessitatibus maxime omnis natus numquam magni ex quidem",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb34"
+    },
+    {
+      "type": "Double Superior",
+      "number": 151,
+      "price": 195.96,
+      "discount": 26,
+      "cancellation": "officia pariatur laboriosam illum rem reiciendis praesentium eum excepturi deserunt rem eos eius praesentium sapiente odit optio laudantium qui saepe",
+      "description": "deserunt maiores veritatis enim placeat occaecati assumenda quod dolores beatae id voluptatum corrupti facilis deleniti repellendus distinctio pariatur numquam odit",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb36"
+    },
+    {
+      "type": "Single Bed",
+      "number": 264,
+      "price": 789.6,
+      "discount": 9,
+      "cancellation": "officiis nihil at quas non consectetur labore ipsam non voluptatum perspiciatis incidunt ea explicabo quos ad quos optio dolore mollitia",
+      "description": "occaecati blanditiis dolorem eligendi molestias hic quibusdam doloribus asperiores nobis quos quas unde itaque aperiam occaecati magni in ullam illo",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb38"
+    },
+    {
+      "type": "Double Bed",
+      "number": 323,
+      "price": 473.37,
+      "discount": 40,
+      "cancellation": "iusto asperiores nisi odio autem sequi optio earum eaque maxime quo voluptate ducimus deserunt itaque laudantium veritatis amet laudantium nostrum",
+      "description": "quas voluptate molestiae unde voluptates cupiditate cum saepe officiis voluptate non suscipit illum sed doloribus delectus a neque quod quis",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb3a"
+    },
+    {
+      "type": "Double Superior",
+      "number": 16,
+      "price": 964.53,
+      "discount": 4,
+      "cancellation": "accusantium quia corporis cumque aut saepe eius repellendus magnam amet aut voluptate fugit reiciendis nostrum qui cumque laborum tempore laborum",
+      "description": "reiciendis expedita consequatur dicta repellendus optio corporis itaque eius consequuntur temporibus aliquam consectetur sequi reprehenderit molestias cupiditate rem voluptates tenetur",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5197bbb439cf835cfb3c"
+    },
+    {
+      "type": "Suite",
+      "number": 488,
+      "price": 14.39,
+      "discount": 12,
+      "cancellation": "maxime cum eius iusto odio repellendus blanditiis nihil unde maxime animi nesciunt voluptatem maiores illo eum quod at aliquam veritatis",
+      "description": "fuga tempore odio reprehenderit unde cupiditate debitis sunt iure quas quo sequi vel nisi rerum officiis totam quam vero ex",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb3e"
+    },
+    {
+      "type": "Single Bed",
+      "number": 103,
+      "price": 939.94,
+      "discount": 13,
+      "cancellation": "tempora voluptatibus ipsa alias provident nam aliquam cum quia velit eos commodi vitae odit eum perspiciatis possimus quam quis cum",
+      "description": "voluptatibus perferendis quisquam neque distinctio vero facere veniam voluptate illum impedit sint quis natus optio quisquam sequi minima consectetur fugiat",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552240-59c37f38802b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb40"
+    },
+    {
+      "type": "Double Superior",
+      "number": 232,
+      "price": 470.19,
+      "discount": 40,
+      "cancellation": "quibusdam recusandae rerum minus facilis qui sit unde ut quas dolorum vel ut possimus blanditiis sunt sequi totam autem a",
+      "description": "unde modi dignissimos ad exercitationem voluptates quo blanditiis consequuntur repellat illo natus rerum consectetur modi itaque odit harum mollitia dolores",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb42"
+    },
+    {
+      "type": "Single Bed",
+      "number": 188,
+      "price": 752.81,
+      "discount": 86,
+      "cancellation": "nam animi tenetur veritatis eos ipsum maiores nemo voluptatibus quo placeat veritatis voluptatum minus nulla cum aspernatur maxime voluptatum odio",
+      "description": "vero cum doloremque unde modi consequuntur adipisci ratione esse expedita dolorum iusto odit illum nemo accusantium quasi iure id maiores",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=958&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb44"
+    },
+    {
+      "type": "Suite",
+      "number": 445,
+      "price": 773.05,
+      "discount": 99,
+      "cancellation": "sequi beatae quisquam suscipit aspernatur explicabo tenetur aspernatur enim vel voluptatum voluptatum tempora est velit dolores doloribus eveniet rerum eligendi",
+      "description": "aperiam esse beatae reiciendis tempora esse voluptatum harum nostrum commodi ducimus alias occaecati excepturi pariatur voluptatibus amet ipsa animi nemo",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb46"
+    },
+    {
+      "type": "Double Superior",
+      "number": 298,
+      "price": 228.91,
+      "discount": 50,
+      "cancellation": "magnam tenetur repudiandae nulla cumque labore alias sed neque iusto aspernatur placeat quibusdam sunt facilis voluptatum impedit nisi iste id",
+      "description": "mollitia id sint sapiente corrupti fuga aliquam sit minima atque adipisci placeat eveniet odio eaque sapiente fugiat blanditiis necessitatibus cum",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb48"
+    },
+    {
+      "type": "Double Superior",
+      "number": 420,
+      "price": 802.15,
+      "discount": 19,
+      "cancellation": "eveniet adipisci eaque autem neque molestiae explicabo voluptates maiores consectetur nesciunt consequuntur dolorum quos rem fugit iste ut aspernatur sequi",
+      "description": "accusamus numquam magni earum suscipit iure rem occaecati beatae totam amet repudiandae magni rem molestiae dicta officia nostrum temporibus fugit",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb4a"
+    },
+    {
+      "type": "Suite",
+      "number": 409,
+      "price": 24.02,
+      "discount": 97,
+      "cancellation": "eaque necessitatibus repudiandae voluptate possimus autem illo consequuntur nihil sit magnam odio aspernatur rerum dignissimos possimus adipisci cupiditate ducimus consectetur",
+      "description": "repellendus id similique vitae ipsum consectetur officiis repellat hic eaque in impedit porro nihil distinctio earum explicabo incidunt ex ipsam",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb4c"
+    },
+    {
+      "type": "Suite",
+      "number": 296,
+      "price": 568.32,
+      "discount": 28,
+      "cancellation": "nobis totam quaerat libero adipisci vero quidem sapiente rerum magni fuga natus impedit labore mollitia soluta hic consequuntur expedita minima",
+      "description": "iste adipisci neque libero corporis voluptates minus vitae expedita culpa dolore modi molestias quod perspiciatis eum eum nostrum nulla eveniet",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Hairdryer",
+        "Coffee maker",
+        "Balcony",
+        "King Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb4e"
+    },
+    {
+      "type": "Double Superior",
+      "number": 98,
+      "price": 450.56,
+      "discount": 15,
+      "cancellation": "voluptatum consequatur sequi maxime nobis maxime laborum repellendus nam error magni commodi error necessitatibus repudiandae alias cumque labore aliquid laboriosam",
+      "description": "cum omnis similique perferendis adipisci animi minus aspernatur repellendus quis tenetur veritatis earum repellendus molestiae maiores fugit molestiae assumenda illo",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1631049552240-59c37f38802b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb50"
+    },
+    {
+      "type": "Double Superior",
+      "number": 4,
+      "price": 429.14,
+      "discount": 9,
+      "cancellation": "libero veritatis quibusdam sequi maiores quos aperiam corrupti itaque quisquam maiores vel at ipsum similique enim eaque possimus dolor corrupti",
+      "description": "quo laborum accusantium nam deleniti velit quos maiores ipsam ad minima occaecati asperiores aspernatur eaque dolores culpa non soluta debitis",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Mini-fridge",
+        "Coffee maker",
+        "Balcony",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1587985064135-0366536eab42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb52"
+    },
+    {
+      "type": "Single Bed",
+      "number": 201,
+      "price": 177.18,
+      "discount": 8,
+      "cancellation": "totam laborum error quasi odio mollitia officiis architecto officiis omnis qui facilis suscipit enim non ipsam dolorem animi nesciunt tenetur",
+      "description": "laudantium eos sequi rem itaque debitis voluptatum possimus expedita excepturi velit culpa adipisci asperiores qui minima consequuntur architecto libero quaerat",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb54"
+    },
+    {
+      "type": "Single Bed",
+      "number": 264,
+      "price": 763.96,
+      "discount": 13,
+      "cancellation": "facere temporibus repudiandae consequuntur in nihil reprehenderit quam ex architecto id magni ex maxime in corporis nobis doloribus voluptatem explicabo",
+      "description": "animi incidunt velit voluptatibus quibusdam ea eos nulla inventore accusantium soluta veniam iste illum vitae laboriosam aliquid labore quia neque",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Single Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb56"
+    },
+    {
+      "type": "Double Bed",
+      "number": 253,
+      "price": 246.54,
+      "discount": 90,
+      "cancellation": "recusandae recusandae enim porro corrupti sequi laudantium fuga dignissimos porro iure animi incidunt reprehenderit cumque beatae voluptatum non eaque autem",
+      "description": "repellendus natus in distinctio neque minus dolores voluptatibus excepturi ducimus neque ipsum recusandae facere quod quis impedit veritatis nihil nesciunt",
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Flat-screen TV",
+        "Coffee maker",
+        "Double Bed"
+      ],
+      "photos": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1635350644128-c8e41eb8b2a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+      ],
+      "is_available": true,
+      "id": "648c5198bbb439cf835cfb58"
+    }
+  ]

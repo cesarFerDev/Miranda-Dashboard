@@ -3,24 +3,18 @@
 LogIn:
 	-Log: /login -> Crear una página de login (crear diseño figma)
 
-User:
-	-Edit: /user
-
-
 Bookings:
-	X (-Create: /bookings/create) -> Se crean desde el formulario de la web
+	-Create: /bookings/create -> Se pueden crear por los empleados (reciben llamada por ejemplo) y desde la web por el usuario
 	-Read All: /bookings
 	-Read One: /bookings/:id
-	X (-Update: /bookings/:id) -> Creo que no hace falta, en el funcional no dice nada de poder editar datos
+	-Update: /bookings/:id) -> Editar desde su página
 	X (-Delete: /bookings/:id) -> Se borra desde la página principal con los 3 puntitos
-	
-	Resumen: Sólo harían falta dos rutas en la app para bookings, una dinámica para ver su info
 
 Rooms:
 	-Create: /rooms/create -> Hacer un formulario de creación (crear diseño figma)
 	-Read All: /rooms -> Lista de todas las habitaciones
 	-Read One: /rooms/:id -> Info de la habitación
-	X (-Update: /rooms/:id) -> No he leído nada de modificar info
+	-Update: /rooms/:id -> Modificar desde su info
 	X (-Delete: /rooms/:id) -> Tampoco he leído nada de borrar
 
 	Resumen: Crear ruta (formulario) para nueva habitación, una ruta para verlas todas y otra dinámica para cada una
@@ -43,10 +37,6 @@ Users:
 
 	Resumen: Ruta para crear, otra para ver todos los empleados y otra para editar el usuario loggeado
 
-
-Dudas:  -/user para editar datos o users/edit? A qué pertenece esa ruta, al dashboard o a users?
-	-Cuándo en una sección podemos elegir que datos mostrar de una tabla (Por ejemplo Contact sin archivar y archivadas)
-	misma página, diferente render al clicar? páginas diferentes?	
 
 
 
