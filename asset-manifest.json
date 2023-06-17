@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Miranda-Dashboard/static/css/main.699760c4.css",
+    "main.js": "/Miranda-Dashboard/static/js/main.69232989.js",
+    "static/js/787.91d9ac38.chunk.js": "/Miranda-Dashboard/static/js/787.91d9ac38.chunk.js",
+    "static/media/logo.PNG": "/Miranda-Dashboard/static/media/logo.4fab6d1a664d76da0fe9.PNG",
+    "static/media/bell.svg": "/Miranda-Dashboard/static/media/bell.30c4c5397907836280236b534abb7024.svg",
+    "static/media/trash.svg": "/Miranda-Dashboard/static/media/trash.eda5c0ff8cc33a5fe73a7f75bfb80e2d.svg",
+    "static/media/logout.svg": "/Miranda-Dashboard/static/media/logout.c8c716d16ef65eb4e2a375b20a0da98f.svg",
+    "static/media/check_in.svg": "/Miranda-Dashboard/static/media/check_in.1e798273a1a7e513d9b5b23b6348ad78.svg",
+    "static/media/rooms.svg": "/Miranda-Dashboard/static/media/rooms.dea51dbee9fe27a9bb7ba5b182a1b91a.svg",
+    "static/media/bookings.svg": "/Miranda-Dashboard/static/media/bookings.d243586fd60c5735e20ee3c2681fc485.svg",
+    "static/media/check_out.svg": "/Miranda-Dashboard/static/media/check_out.eea5172209482bfe76e8a0a15418a813.svg",
+    "static/media/phone.svg": "/Miranda-Dashboard/static/media/phone.b6016890985debc78edcea86e24b3cd1.svg",
+    "index.html": "/Miranda-Dashboard/index.html",
+    "static/media/Calendar_add.svg": "/Miranda-Dashboard/static/media/Calendar_add.d39c386c3122ca882d67abac18a75e53.svg",
+    "static/media/dashboard_alt.svg": "/Miranda-Dashboard/static/media/dashboard_alt.581e5f14a3808820d602151ca351fb90.svg",
+    "static/media/users.svg": "/Miranda-Dashboard/static/media/users.ae18bbe5b99fc4885d9e4ed0cbbcd06b.svg",
+    "static/media/arrow-left.svg": "/Miranda-Dashboard/static/media/arrow-left.ff679d56da2397bfe732f17216fb7821.svg",
+    "static/media/arrow-right.svg": "/Miranda-Dashboard/static/media/arrow-right.2a8385cd4bcf6db27b0bc4d625ec149d.svg",
+    "static/media/dots_button.svg": "/Miranda-Dashboard/static/media/dots_button.3b57f58fb6b834b6544732597ad37ad5.svg",
+    "static/media/contacts.svg": "/Miranda-Dashboard/static/media/contacts.af0e474ec18a8fe302bc26ed15bf5bf1.svg",
+    "static/media/message.svg": "/Miranda-Dashboard/static/media/message.2fd13b327cd9a461e1affc194258ca92.svg",
+    "main.699760c4.css.map": "/Miranda-Dashboard/static/css/main.699760c4.css.map",
+    "main.69232989.js.map": "/Miranda-Dashboard/static/js/main.69232989.js.map",
+    "787.91d9ac38.chunk.js.map": "/Miranda-Dashboard/static/js/787.91d9ac38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.699760c4.css",
+    "static/js/main.69232989.js"
+  ]
+}
