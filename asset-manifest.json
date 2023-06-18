@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Miranda-Dashboard/static/css/main.699760c4.css",
-    "main.js": "/Miranda-Dashboard/static/js/main.e2c972f7.js",
+    "main.js": "/Miranda-Dashboard/static/js/main.9ea07de1.js",
     "static/js/787.91d9ac38.chunk.js": "/Miranda-Dashboard/static/js/787.91d9ac38.chunk.js",
     "static/media/logo.PNG": "/Miranda-Dashboard/static/media/logo.4fab6d1a664d76da0fe9.PNG",
     "static/media/bell.svg": "/Miranda-Dashboard/static/media/bell.30c4c5397907836280236b534abb7024.svg",
@@ -22,11 +22,11 @@
     "static/media/contacts.svg": "/Miranda-Dashboard/static/media/contacts.af0e474ec18a8fe302bc26ed15bf5bf1.svg",
     "static/media/message.svg": "/Miranda-Dashboard/static/media/message.2fd13b327cd9a461e1affc194258ca92.svg",
     "main.699760c4.css.map": "/Miranda-Dashboard/static/css/main.699760c4.css.map",
-    "main.e2c972f7.js.map": "/Miranda-Dashboard/static/js/main.e2c972f7.js.map",
+    "main.9ea07de1.js.map": "/Miranda-Dashboard/static/js/main.9ea07de1.js.map",
     "787.91d9ac38.chunk.js.map": "/Miranda-Dashboard/static/js/787.91d9ac38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.699760c4.css",
-    "static/js/main.e2c972f7.js"
+    "static/js/main.9ea07de1.js"
   ]
 }
