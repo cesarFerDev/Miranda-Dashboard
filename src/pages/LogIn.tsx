@@ -69,11 +69,12 @@ export const LogIn = () => {
     const verifyFalseUser = (candidate: LoginUser) => {
         let infoToReturn: LoginReturnInfo | null = null;
         if (candidate.usermail === "admin@admin.com" && candidate.password === "admin") {
-            infoToReturn = {token: "", id: "648c5165e3a1775efb249471"};
+            const admin = usersList.find(user => user.user_name === "Admin");
+            infoToReturn = {token: "", id: admin!.id};
         }
-        if (candidate.usermail === "test@admin.com" && candidate.password === "test") {
-            infoToReturn = {token: "", id: "648c5165e3a1775efb249473"};
-        }
+        // if (candidate.usermail === "test@admin.com" && candidate.password === "test") {
+        //     infoToReturn = {token: "", id: "648c5165e3a1775efb249473"};
+        // }
         return infoToReturn;
     }
 
