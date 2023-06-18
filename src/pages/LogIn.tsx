@@ -11,6 +11,7 @@ import { getUser } from '../features/users/usersThunks';
 import { GreyText } from '../components/Table';
 import fetch from 'cross-fetch';
 import { errorToastify, successToastify } from '../aux_functions/toastifyMessages';
+import { StrongText } from '../components/Table';
 
 const FormContainer = styled.section`
     min-height: calc(100vh - 120px);
@@ -133,8 +134,8 @@ export const LogIn = () => {
                     <FormInput value={password} onChange={(event) => setPassword(event.target.value)} type="password" name="password" data-cy="login__userpass__input"/>
                 </FormField>
 
-                <GreyText>(Mail: admin@admin.com & Password: admin to log in)</GreyText>
-                <GreyText>(Mail: test@admin.com & Password: test to test everything)</GreyText>
+                <GreyText>Mail: admin@admin.com</GreyText>
+                <GreyText>Password: admin</GreyText>
 
                 <LoginButton type="submit" data-cy="login__submit__button">Log In</LoginButton>  
             </Form>

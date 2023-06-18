@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { EditButton } from "../styled_components/buttons/buttons";
 import { DeleteButton } from "../styled_components/buttons/buttons";
 import { StatusButton } from "../styled_components/buttons/buttons";
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import dots from "../assets/dots_button.svg"
 import trash from "../assets/trash.svg"
 import phone from "../assets/phone.svg"
@@ -17,6 +17,8 @@ import { deleteRoom } from "../features/rooms/roomsThunks";
 import { Booking, Room, User, Contact } from "../interfaces/interfaces";
 import { amenitiesToString } from "./RoomForm";
 import { archiveContacts } from "../features/contacts/contactsThunks";
+import { FilterButton } from "../pages/Users/Users";
+import { UserContext } from "../context/UserContext";
 
 interface RoomStatusProps {
     roomStatus?: boolean
@@ -150,7 +152,7 @@ const ArchivedButton = styled(ArchiveButton)`
     border-bottom: 1px solid #135846;
 `;
 
-const StrongText = styled.h4`
+export const StrongText = styled.h4`
     font-weight: 600;
     font-size: 20px;
     &.lined {
@@ -194,6 +196,37 @@ const CloseModalButton = styled.button`
     }
 `;
 
+const PaginationContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+`;
+
+const PageButton = styled(FilterButton)`
+    max-width: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    border:none;
+    border-radius: 8px;
+    margin: 0 5px;
+    &.active-pag {
+        background-color: #135846;
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+    &.prev-next {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    &:hover {
+        background-color: #135846;
+        color: #FFFFFF;
+    }
+`;
+
 interface ITableProps {
     section: string,
     cols: string[],
@@ -205,28 +238,60 @@ const tableDateFormat = (date: string) => {
     return auxDate;
 }
 
+const calculatePages = (elements: number, numElementsPerPage: number) => {
+    let extra = 0;
+    if (elements % numElementsPerPage !== 0) {
+        extra++;
+    }
+    return Math.floor(elements / numElementsPerPage) + extra;
+}
+
 export const Table = (props: ITableProps) => {
 
-    const dispatch = useAppDispatch();
+    const numElementsPerPage = 10;
+
+    const dispatchApp = useAppDispatch();
+    const { state, dispatch } = useContext(UserContext);
 
     const [modal, setModal] = useState(false);
     const [request, setRequest] = useState("");
 
+    const [page, setPage] = useState(1);
+    const [data, setData] = useState<Booking[] | Room[] | User[] | Contact[]>(props.data);
+    const [numPages, setNumPages] = useState(calculatePages(data.length, numElementsPerPage));
+    
     const [showRequest, setShowRequest] = useState<null | string>(null);
     const [showDelete, setShowDelete] = useState<null | string>(null);
 
+    useEffect(() => {
+        setData(props.data);
+        setNumPages(calculatePages(data.length, numElementsPerPage));
+        if (page !== 1) {
+            setPage(1)
+        }
+    }, [props.data, data])
+
     const deleteBookingClickHandler = (id: string) => {
         setShowDelete(null);
-        dispatch(deleteBooking(id));
+        dispatchApp(deleteBooking(id));
     }
     const deleteUserClickHandler = (id: string) => {
         setShowDelete(null);
-        dispatch(deleteUser(id));
+        dispatchApp(deleteUser(id));
+        const localStorageInfo = localStorage.getItem("login");
+        if (localStorageInfo) {
+            const userLogged = JSON.parse(localStorageInfo);
+            if (userLogged && id === userLogged.id) {
+                localStorage.removeItem("login");
+                dispatch({ type: "LOG_OUT" });
+            }
+        }
+        
     }
 
     const deleteRoomClickHandler = (id: string) => {
         setShowDelete(null);
-        dispatch(deleteRoom(id));
+        dispatchApp(deleteRoom(id));
     }
 
     const createBookingTableRows = (booking: Booking) => {
@@ -243,12 +308,11 @@ export const Table = (props: ITableProps) => {
                             </ElementTableTextContainer>
                         </TableLink>
                     </TableDataElement>
-                    <TableDataElement><GreyText>{booking.order_date && tableDateFormat(booking.order_date)}</GreyText></TableDataElement>
-                    <TableDataElement><GreyText>{booking.order_date && tableDateFormat(booking.check_in)}</GreyText></TableDataElement>
-                    <TableDataElement><GreyText>{booking.order_date && tableDateFormat(booking.check_out)}</GreyText></TableDataElement>
+                    <TableDataElement><GreyText>{booking.order_date && booking.order_date}</GreyText></TableDataElement>
+                    <TableDataElement><GreyText>{booking.order_date && booking.check_in}</GreyText></TableDataElement>
+                    <TableDataElement><GreyText>{booking.order_date && booking.check_out}</GreyText></TableDataElement>
                     <TableDataElement>{booking.special_request && <EditButton onClick={() => setShowRequest(prev => prev === booking.special_request ? null : booking.special_request)}>View Notes{showRequest === booking.special_request && <RequestModal><CloseModalButton onClick={() => setModal(false)}>X</CloseModalButton><p>{booking.special_request}</p></RequestModal>}</EditButton>}</TableDataElement>
                     <TableDataElement>{booking.room && booking.room.type} {booking.room && booking.room.number}</TableDataElement>
-                    {/* <TableDataElement>{booking.room?.id}</TableDataElement>*/} 
                     <TableDataElement><StatusButton status={booking.status}>{booking.status}</StatusButton></TableDataElement>
                     <TableDataElement><DeleteDots onClick={() => setShowDelete(prev => prev === booking.id! ? null : booking.id!)}><img src={dots} alt="" />{showDelete === booking.id! && <DeleteButton onClick={() => deleteBookingClickHandler(booking.id!)}><img src={trash}/> Delete</DeleteButton>}</DeleteDots></TableDataElement>
                 </TableRow>
@@ -278,7 +342,7 @@ export const Table = (props: ITableProps) => {
                     
                     <TableDataElement>
                         <ElementTableDateTextContainer>
-                            <StrongText>From: </StrongText> <GreyText>{booking.check_in}</GreyText> <StrongText> To: </StrongText><GreyText>{booking.check_out}</GreyText>
+                            <StrongText>From: </StrongText> <GreyText>{booking && booking.check_in}</GreyText> <StrongText> To: </StrongText><GreyText>{booking && booking.check_out}</GreyText>
                         </ElementTableDateTextContainer>
                     </TableDataElement>
 
@@ -326,7 +390,7 @@ export const Table = (props: ITableProps) => {
                 <TableDataElement>
                     <ElementTableTextContainer>
                         <StrongText>{contact.id}</StrongText>
-                        <GreyText>{contact.contact_date}</GreyText>
+                        <GreyText>{contact && contact.contact_date}</GreyText>
                     </ElementTableTextContainer>
                 </TableDataElement>
                 <TableDataElement>
@@ -342,7 +406,7 @@ export const Table = (props: ITableProps) => {
                         <GreyText>{contact.content_text}</GreyText>
                     </ElementTableTextContainer>
                 </TableDataElement>
-                <TableDataElement>{!(contact.is_archived!) ? <ArchiveButton onClick={() => dispatch(archiveContacts(contact.id!))}>Archive</ArchiveButton> : <ArchivedButton>Archived</ArchivedButton>}</TableDataElement>
+                <TableDataElement>{!(contact.is_archived!) ? <ArchiveButton onClick={() => dispatchApp(archiveContacts(contact.id!))}>Archive</ArchiveButton> : <ArchivedButton>Archived</ArchivedButton>}</TableDataElement>
             </TableRow>
             </>
         );
@@ -353,7 +417,8 @@ export const Table = (props: ITableProps) => {
     const createUsersTableRows = (user: User) => {
         if (user) {
             return (
-                <>{user.user_name !== "Admin" &&
+                <>
+                {/* {user.user_name !== "Admin" && */}
                 <TableRow key={user.id}>
                     <TableDataElement>
                     <TableLink to={`/users/${user.id}`}><ElementTableInfoContainer>
@@ -366,16 +431,40 @@ export const Table = (props: ITableProps) => {
                     </ElementTableInfoContainer></TableLink>
                     </TableDataElement>
 
-                    <TableDataElement>{user.start_date && tableDateFormat(user.start_date)}</TableDataElement>
+                    <TableDataElement>{user.start_date && user.start_date}</TableDataElement>
                     <TableDataElement><GreyText>{user.job_description}</GreyText></TableDataElement>
                     <TableDataElement><div style={{display:  "flex"}}><img className="phone__icon" src={phone} alt="" />{user.contact}</div></TableDataElement>
                     <TableDataElement className="status"><StatusText status={user.is_active}>{user.is_active ? "ACTIVE" : "INACTIVE"}</StatusText></TableDataElement>
                     <TableDataElement className="delete"><DeleteDots onClick={() => setShowDelete(prev => prev === user.id! ? null : user.id!)}><img src={dots} alt="" />{showDelete === user.id && <DeleteButton onClick={() => deleteUserClickHandler(user.id!)}><img src={trash}/> Delete</DeleteButton>}</DeleteDots></TableDataElement>
                 </TableRow>
-            }</>
+            </>
             );
         }
         
+    };
+
+    const renderPagesButtons = () => {
+        const buttons = []
+        for (let i = 1; i <= numPages; i++) {
+            if(i >= 12) {
+                break;
+            }
+            buttons.push(
+                <PageButton className={page === i ? "active active-pag" : ""} onClick={() => setPage(i)}> {i} </PageButton>
+            );
+        }
+        return buttons;
+    };
+
+    const dataToRender = (page: number, numElements: number) => {
+        const aux = [];
+        const index = (page - 1) * numElements;
+        for (let i = index; i < (index + numElements); i++) {
+            if (data[i]) {
+                aux.push(data[i]);
+            } 
+        }
+        return aux;
     };
 
     const selectRowRender = (element: Booking | Room | Contact | User) => {
@@ -397,7 +486,7 @@ export const Table = (props: ITableProps) => {
     const rowsRenderFunction = (element: Booking | Room | Contact | User) => selectRowRender(element);
 
     return (
-       
+    <>  
         <TableContainer>
             <thead>
                 <TableHeaderRow key={"header"}>
@@ -406,11 +495,15 @@ export const Table = (props: ITableProps) => {
             </thead>
         
             <tbody>
-                {props.data.map(element => rowsRenderFunction(element))}
-                {/* {modal && <RequestModal><button onClick={() => setModal(false)}>X</button><p>{request}</p></RequestModal>} */}
+                {dataToRender(page, numElementsPerPage).map(element => rowsRenderFunction(element))}
             </tbody>
-
-            
         </TableContainer>
-    );
+
+        {props.section !== "Dashboard" &&
+        <PaginationContainer>
+            {numPages > 1 && <PageButton className={"prev-next"} onClick={() => setPage(prev => prev === 1 ? 1 : prev - 1)}> &lt; </PageButton>}
+            {renderPagesButtons()}
+            {numPages > 1 && <PageButton className={"prev-next"} onClick={() => setPage(prev =>prev === numPages ? numPages : prev + 1)}> &gt; </PageButton>}
+        </PaginationContainer>}
+    </>);
 };

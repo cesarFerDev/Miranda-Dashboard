@@ -67,6 +67,9 @@ export const editUser = createAsyncThunk("users/editUser", async (userObject: Pa
     // try {
         const userEdited: User = await useFetch(`/api/users/${userObject.id}`, "PUT", userObject);
         if (userEdited) {
+            if (userEdited.user_name === "Admin") {
+                warningToastify("Admin User can't be edited sorry!");
+            }
             return userEdited;
         } else {
             const state = thunkAPI.getState() as RootState;

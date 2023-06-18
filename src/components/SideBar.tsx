@@ -113,7 +113,6 @@ export const SideBar = () => {
   }, [dispatchApp, usersList])
   // console.log(state.id)
   // console.log(usersList)
-  //const userData = usersList.find(user => user.id === state.id);
   const userData = usersList.find(user => user.id === state.id);
   
   
@@ -158,7 +157,9 @@ export const SideBar = () => {
         <img src={userData?.photo} alt="" />
         <h4>{userData?.user_name}</h4>
         <p>{userData?.email}</p>
-        {userData?.user_name !== "Admin" && <Link to={`/users/${state.id}`}><EditButton>Edit</EditButton></Link>}
+        {/*userData?.user_name !== "Admin" && */}
+        <Link to={`/users/${state.id}`}><EditButton>Edit</EditButton></Link>
+      
       </Profile>
 
       <Footer>
